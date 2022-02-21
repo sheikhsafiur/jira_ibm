@@ -1,0 +1,244 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Log Work,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Attachment,Attachment,Attachment,Attachment,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Affected services),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Link),Custom field (Impact),Custom field (Issue color),Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Satisfaction rating,Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field ([CHART] Date of First Response),Status Category
+Verify the pagination when more than 20 data is viewed,UW-65,10162,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,17/Feb/22 2:49 PM,17/Feb/22 3:09 PM,17/Feb/22 2:56 PM,17/Feb/22 3:09 PM,,0,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000sx:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the checkbox for each data and bulk action,UW-64,10161,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,17/Feb/22 2:47 PM,17/Feb/22 3:09 PM,17/Feb/22 2:55 PM,17/Feb/22 3:09 PM,,0,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000sn:,,,,,UW Sprint 1,,,,,,,,Done
+"Special charcter, alphanumerics, Blank Spaces are accepted",UW-63,10160,Bug,To Do,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,17/Feb/22 1:04 PM,18/Feb/22 4:04 PM,18/Feb/22 4:30 PM,,,0,"Special character, alphanumeric, Blank Spaces are accepted
+
+Steps:
+
+Navigate to the uniform upskills website		
+
+2. Click on Catalog tab, then on Manufacturers then on add new/edit button
+
+3. Verify the Manufacturer name field with Special character, alphanumeric, Blank Spaces	
+
+Test Data:
+@#$@#$
+asd123
+""             ""
+
+Expected Result:
+Validation message should appear when click on save button
+
+Actual Result:
+No message is displayed instead data is added to database
+
+Screenshot:
+
+!image-2022-02-17-13-02-58-674.png|width=200,height=183!
+
+ 
+
+!image-2022-02-17-13-03-18-259.png|width=200,height=183!
+
+ 
+
+!image-2022-02-17-13-03-56-498.png|width=200,height=183!
+
+ 
+
+!image-2022-02-17-13-04-50-754.png|width=200,height=183!
+
+ ",,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,,,,,,,,,UW-2,UW-35,UW-53,,,17/Feb/22 1:03 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-17-13-02-58-674.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10019/image-2022-02-17-13-02-58-674.png,17/Feb/22 1:03 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-17-13-03-18-259.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10018/image-2022-02-17-13-03-18-259.png,17/Feb/22 1:03 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-17-13-03-56-498.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10017/image-2022-02-17-13-03-56-498.png,17/Feb/22 1:04 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-17-13-04-13-555.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10016/image-2022-02-17-13-04-13-555.png,17/Feb/22 1:04 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-17-13-04-50-754.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10015/image-2022-02-17-13-04-50-754.png,,,,,,,{},,,,0|i000ub:,,,,,UW Sprint 1,,,,,,,,To Do
+Spaces are accepted,UW-62,10159,Bug,To Do,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,17/Feb/22 12:03 PM,18/Feb/22 4:03 PM,18/Feb/22 4:04 PM,,,0,"Empty spaces are accepted
+
+Steps:
+
+Navigate to the uniform upskills website		
+
+2. Click on Catalog tab, then on Manufacturers then on add new/edit button
+
+3. Verify the Manufacturer name field with empty space	
+
+Test Data:
+abc xyz asd
+
+Expected Result:
+Validation message should appear when click on save button
+
+Actual Result:
+No message is displayed instead data is added to database
+
+Screenshot:
+
+!image-2022-02-17-12-03-09-155.png|width=200,height=183!
+
+ 
+
+!image-2022-02-17-12-03-27-212.png|width=200,height=183!
+
+ ",,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,,,,,,,,,UW-2,UW-29,UW-47,,,17/Feb/22 12:03 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-17-12-03-09-155.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10014/image-2022-02-17-12-03-09-155.png,17/Feb/22 12:03 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-17-12-03-27-212.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10013/image-2022-02-17-12-03-27-212.png,,,,,,,,,,{},,,,0|i000u3:,,,,,UW Sprint 1,,,,,,,,To Do
+Empty spaces are accepted,UW-61,10158,Bug,To Do,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,17/Feb/22 11:49 AM,18/Feb/22 4:02 PM,18/Feb/22 4:05 PM,,,0,"Empty spaces are accepted
+
+Steps:
+
+# Navigate to the uniform upskills website		
+
+   2. Click on Catalog tab, then on Manufacturers then on add new/edit button
+
+   3. Verify the Manufacturer name field with empty space	
+
+Test Data:
+”                        “
+
+Expected Result:
+Validation message should appear when click on save button
+
+Actual Result:
+No message is displayed instead data is added to database
+
+Screenshot:
+
+!image-20220217-062721.png|width=1288,height=682!
+
+!image-20220217-062758.png|width=1274,height=615!",,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,,,,,,,,,UW-2,UW-26,UW-30,UW-44,UW-48,17/Feb/22 11:58 AM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-20220217-062721.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10012/image-20220217-062721.png,17/Feb/22 11:58 AM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-20220217-062758.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10011/image-20220217-062758.png,,,,,,,,,,{},,,,0|i000tv:,,,,,UW Sprint 1,,,,,,,,To Do
+Validation message not shown with special characters and alpha numericals ,UW-60,10157,Bug,To Do,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,16/Feb/22 2:55 PM,17/Feb/22 2:55 PM,18/Feb/22 4:01 PM,,,0,"Validation message not shown with special characters and alpha numericals
+
+Steps:
+1. Navigate to the uniform upskills website		
+2. Click on Reports tab, then on Products then Purchased		
+3. Verify the Date Start/Date End field with special characters	
+
+Test Data:
+""@#@#@#$""
+ abc12
+
+Expected Result:
+Validation message should appear when click on Filter button
+
+Actual Result:
+No message is displayed instead data is added to database
+
+Screenshot:
+ !image-2022-02-16-14-54-53-859.png|thumbnail! 
+ !image-2022-02-16-14-55-44-376.png|thumbnail! ",,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,,,,,,,,,UW-2,UW-25,UW-43,,,16/Feb/22 2:54 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-16-14-54-53-859.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10010/image-2022-02-16-14-54-53-859.png,16/Feb/22 2:55 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-16-14-55-44-376.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10009/image-2022-02-16-14-55-44-376.png,,,,,,,,,,{},,,,0|i000tn:,,,,,UW Sprint 1,,,,,,,,To Do
+Validation message not shown with alpha numeric,UW-59,10156,Bug,To Do,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,16/Feb/22 2:26 PM,18/Feb/22 4:00 PM,18/Feb/22 3:59 PM,,,0,"Validation message not shown with alpha numeric
+
+Steps:
+1. Navigate to the uniform upskills website		
+2. Click on Reports tab, then on Products then Purchased		
+3. Verify the Date Start/Date End field with alpha numerics
+
+Test Data: 
+123asd 
+
+Expected Result:
+Validation message should appear when click on Filter button
+
+Actual Result:
+No message is displayed
+
+Screenshot:
+
+!image-2022-02-16-14-24-32-938.png|width=200,height=183!
+
+ ",,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,,,,,,,,,UW-1,UW-5,UW-11,UW-10,,16/Feb/22 2:24 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-16-14-24-32-938.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10006/image-2022-02-16-14-24-32-938.png,,,,,,,,,,,{},,,,0|i000th:,,,,,UW Sprint 1,,,,,,,,To Do
+Validation message not shown with special characters,UW-58,10155,Bug,To Do,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,16/Feb/22 2:21 PM,17/Feb/22 2:55 PM,18/Feb/22 4:00 PM,,,0,"Validation message not shown with special characters
+
+Steps:
+1. Navigate to the uniform upskills website		
+2. Click on Reports tab, then on Products then Purchased		
+3. Verify the Date Start/Date End field with special characters	
+
+Test Data:
+@#@#	
+
+Expected Result:
+Validation message should appear when click on Filter button
+
+Actual Result:
+No message is displayed
+
+Screenshot:
+
+!image-2022-02-16-14-21-37-965.png|width=200,height=183!
+
+!image-20220216-090802.png|width=1278,height=633!
+
+ ",,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,,,,,,,,,UW-1,UW-4,UW-10,,,16/Feb/22 2:21 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-16-14-21-37-965.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10005/image-2022-02-16-14-21-37-965.png,16/Feb/22 2:38 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-20220216-090802.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10008/image-20220216-090802.png,,,,,,,,,,{},,,,0|i000tb:,,,,,UW Sprint 1,,,,,,,,To Do
+"Validation message not shown with invalid date, future dates",UW-57,10154,Bug,To Do,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,16/Feb/22 12:56 PM,17/Feb/22 2:55 PM,18/Feb/22 3:50 PM,,,0,"Validation message not shown with invalid date, future dates
+
+Steps:
+1. Navigate to the uniform upskills website		
+2. Click on Reports tab, then on Products then Purchased		
+3. Verify the Date Start/ Date End field with invalid date, future dates	
+
+Test Data:
+2020-21-20
+2051-05-15	
+
+Expected Result:
+Validation message should appear when click on Filter button
+
+Actual Result:
+No message is displayed
+
+Screenshot:
+
+!image-20220216-090432.png|width=1241,height=628!
+
+
+
+!image-2022-02-16-12-56-04-450.png|width=200,height=183!
+
+*  ",,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,,,,,,,,,UW-1,UW-3,UW-9,,,16/Feb/22 12:55 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-16-12-55-00-636.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10004/image-2022-02-16-12-55-00-636.png,16/Feb/22 12:55 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-16-12-55-19-252.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10003/image-2022-02-16-12-55-19-252.png,16/Feb/22 12:56 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-2022-02-16-12-56-04-450.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10002/image-2022-02-16-12-56-04-450.png,16/Feb/22 2:35 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;image-20220216-090432.png;https://sksafiurrahaman.atlassian.net/secure/attachment/10007/image-20220216-090432.png,,,,,,,,{},,,,0|i000t7:,,,,,UW Sprint 1,,,,,,,,To Do
+Verify the cancel button,UW-56,10153,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:09 PM,16/Feb/22 12:40 PM,17/Feb/22 3:09 PM,,0,Verify the cancel button,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000s3:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the save button,UW-55,10152,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:09 PM,21/Feb/22 9:49 AM,17/Feb/22 3:09 PM,,0,Verify the save button,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000rv:,,,,,UW Sprint 1,,,,,,,,Done
+"Verify the Sort Order Field font , placeholder",UW-54,10151,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:09 PM,21/Feb/22 9:49 AM,17/Feb/22 3:09 PM,,0,"Verify the Sort Order Field font , placeholder",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000rn:,,,,,UW Sprint 1,,,,,,,,Done
+"Verify the Sort Order Field with special charcter, alphanumerics, Blank Spaces",UW-53,10150,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:09 PM,21/Feb/22 9:49 AM,,,0,"Verify the Sort Order Field with special charcter, alphanumerics, Blank Spaces",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000rf:,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the Sort Order Field type,UW-52,10149,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:09 PM,21/Feb/22 9:49 AM,17/Feb/22 3:09 PM,,0,Verify the Sort Order Field type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000r7:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Image button default image,UW-51,10148,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:08 PM,21/Feb/22 9:49 AM,17/Feb/22 3:08 PM,,0,Verify the Image button default image,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000qz:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Image button Type,UW-50,10147,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:08 PM,21/Feb/22 9:49 AM,17/Feb/22 3:08 PM,,0,Verify the Image button Type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000qr:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the SEO URL field with Unique data,UW-49,10146,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:08 PM,21/Feb/22 9:49 AM,17/Feb/22 3:08 PM,,0,Verify the SEO URL field with Unique data,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000qj:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the SEO URL field with white spaces,UW-48,10145,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:08 PM,21/Feb/22 9:49 AM,,,0,Verify the SEO URL field with white spaces,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000qb:,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the SEO URL field with spaces,UW-47,10144,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:08 PM,21/Feb/22 9:49 AM,,,0,Verify the SEO URL field with spaces,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000q3:,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the Stores Field content,UW-46,10143,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:08 PM,21/Feb/22 9:49 AM,17/Feb/22 3:08 PM,,0,Verify the Stores Field content,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000pv:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Stores Field Type,UW-45,10142,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:08 PM,21/Feb/22 9:49 AM,17/Feb/22 3:08 PM,,0,Verify the Store Field Type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000pn:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Manufacturer Name Field with empty space and mandatory Field,UW-44,10141,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:08 PM,21/Feb/22 9:49 AM,,,0,Verify the Manufacturer Name Field with empty space and mandatory Field,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000pf:,,,,,UW Sprint 1,,,,,,,,In Progress
+"Verify the Manufacturer Name Field with Special character, alpha numerics",UW-43,10140,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:08 PM,21/Feb/22 9:49 AM,,,0,"Verify the Manufacturer Name Field with Special character, alpha numerics",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000p7:,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the Manufacturer Name Field with less than 2 and more than 64 characters,UW-42,10139,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:07 PM,21/Feb/22 9:49 AM,17/Feb/22 3:07 PM,,0,Verify the Manufacturer Name Field with less than 2 and more than 64 characters,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000oz:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Manufacturer Name Field type,UW-41,10138,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:07 PM,21/Feb/22 9:49 AM,17/Feb/22 3:07 PM,,0,Verify the Manufacturer Name Field type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000or:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Edit Logo field,UW-40,10137,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:07 PM,21/Feb/22 9:49 AM,17/Feb/22 3:07 PM,,0,Verify the Edit Logo field,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000oj:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Edit Logo field type,UW-39,10136,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:12 PM,17/Feb/22 3:07 PM,21/Feb/22 9:49 AM,17/Feb/22 3:07 PM,,0,Verify the Edit Logo field type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000ob:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the cancel button,UW-38,10135,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:07 PM,21/Feb/22 9:49 AM,17/Feb/22 3:07 PM,,0,Verify the cancel button,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000o3:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the save button,UW-37,10134,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:07 PM,21/Feb/22 9:49 AM,17/Feb/22 3:07 PM,,0,Verify the save button,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000nv:,,,,,UW Sprint 1,,,,,,,,Done
+"Verify the Sort Order Field font , placeholder",UW-36,10133,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:07 PM,21/Feb/22 9:49 AM,17/Feb/22 3:07 PM,,0,"Verify the Sort Order Field font , placeholder",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000nn:,,,,,UW Sprint 1,,,,,,,,Done
+"Verify the Sort Order Field with special charcter, alphanumerics, Blank Spaces",UW-35,10132,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:07 PM,21/Feb/22 9:49 AM,,,0,"Verify the Sort Order Field with special charcter, alphanumerics, Blank Spaces",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000nf:,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the Sort Order Field type,UW-34,10131,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:07 PM,21/Feb/22 9:49 AM,17/Feb/22 3:07 PM,,0,Verify the Sort Order Field type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000n7:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Image button default image,UW-33,10130,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:07 PM,21/Feb/22 9:49 AM,17/Feb/22 3:07 PM,,0,Verify the Image button default image,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000mz:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Image button Type,UW-32,10129,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:06 PM,21/Feb/22 9:49 AM,17/Feb/22 3:06 PM,,0,Verify the Image button Type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000mr:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the SEO URL field with Unique data,UW-31,10128,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:06 PM,21/Feb/22 9:49 AM,17/Feb/22 3:06 PM,,0,Verify the SEO URL field with Unique data,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000mj:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the SEO URL field with white spaces,UW-30,10127,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:06 PM,21/Feb/22 9:49 AM,,,0,Verify the SEO URL field with white spaces,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000mb:,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the SEO URL field with spaces,UW-29,10126,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:06 PM,21/Feb/22 9:49 AM,,,0,Verify the SEO URL field with spaces,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000m3:,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the Stores Field content,UW-28,10125,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:06 PM,21/Feb/22 9:49 AM,17/Feb/22 3:06 PM,,0,Verify the Stores Field content,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000lv:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Stores Field Type,UW-27,10124,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:06 PM,21/Feb/22 9:49 AM,17/Feb/22 3:06 PM,,0,Verify the Store Field Type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000ln:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Manufacturer Name Field with empty space and mandatory Field,UW-26,10123,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:06 PM,21/Feb/22 9:49 AM,,,0,Verify the Manufacturer Name Field with empty space and mandatory Field,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000lf:,,,,,UW Sprint 1,,,,,,,,In Progress
+"Verify the Manufacturer Name Field with Special character, alpha numerics",UW-25,10122,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:06 PM,16/Feb/22 2:50 PM,,,0,"Verify the Manufacturer Name Field with Special character, alpha numerics",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000l7:,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the Manufacturer Name Field with less than 2 and more than 64 characters,UW-24,10121,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 2:57 PM,17/Feb/22 2:58 PM,17/Feb/22 2:57 PM,,0,Verify the Manufacturer Name Field with less than 2 and more than 64 characters,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000kz:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Manufacturer Name Field type,UW-23,10120,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:05 PM,21/Feb/22 9:49 AM,17/Feb/22 3:05 PM,,0,Verify the Manufacturer Name Field type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000kr:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Add New Logo field,UW-22,10119,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:05 PM,21/Feb/22 9:49 AM,17/Feb/22 3:05 PM,,0,Verify the Add New Logo field,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000kj:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Add New Logo field type,UW-21,10118,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:05 PM,21/Feb/22 9:49 AM,17/Feb/22 3:05 PM,,0,Verify the Add New Logo field type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-2,,,,,,,,,,,,,,,,{},,,,0|i000kb:,,,,,UW Sprint 1,,,,,,,,Done
+"Verify the Filter button Font, Logo, Size",UW-20,10117,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:05 PM,21/Feb/22 9:49 AM,17/Feb/22 3:05 PM,,0,"Verify the Filter button Font, Logo, Size",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000k3:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Filter button type,UW-19,10116,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:05 PM,21/Feb/22 9:49 AM,17/Feb/22 3:05 PM,,0,Verify the Filter button type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000jv:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Order Status list with search with using initials,UW-18,10115,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:05 PM,21/Feb/22 9:49 AM,17/Feb/22 3:05 PM,,0,Verify the Order Status list with search with using initials,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000jn:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Order Status with default placeholder,UW-17,10114,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:05 PM,21/Feb/22 9:49 AM,17/Feb/22 3:05 PM,,0,Verify the Order Status with default placeholder,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000jf:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Order Status field with all data listed or not in acending order,UW-16,10113,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:05 PM,21/Feb/22 9:49 AM,17/Feb/22 3:05 PM,,0,Verify the Order Status field with all data listed or not in acending order,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000j7:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Order Status field type,UW-15,10112,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 2:57 PM,21/Feb/22 9:49 AM,17/Feb/22 2:57 PM,,0,Verify the Order Status field type,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000iz:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the calender icon with selected dates,UW-14,10111,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:11 PM,17/Feb/22 3:05 PM,21/Feb/22 9:49 AM,17/Feb/22 3:05 PM,,0,Verify the calender icon with selected dates,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000ir:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Date End field with calender icon,UW-13,10110,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,17/Feb/22 2:57 PM,21/Feb/22 9:49 AM,17/Feb/22 2:57 PM,,0,Verify the Date End field with calender icon,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000ij:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Date End field with correct date format(YYYY-MM-DD),UW-12,10109,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,17/Feb/22 3:05 PM,21/Feb/22 9:49 AM,17/Feb/22 3:05 PM,,0,Verify the Date End field with correct date format(YYYY-MM-DD),,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000ib:,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Date End field with alpha numerics,UW-11,10108,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,17/Feb/22 3:04 PM,21/Feb/22 9:49 AM,,,0,Verify the Date End field with alpha numerics,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000i3:,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the Date End field with special characters,UW-10,10107,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,17/Feb/22 3:04 PM,16/Feb/22 12:32 PM,,,0,Verify the Date End field with special characters,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000hv:,,,,,UW Sprint 1,,,,,,,,In Progress
+"Verify the Date End field with invalid date, future dates",UW-9,10106,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,17/Feb/22 3:04 PM,16/Feb/22 2:31 PM,,,0,"Verify the Date End field with invalid date, future dates",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000g2:x,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the calender icon with selected dates,UW-8,10105,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,17/Feb/22 2:57 PM,21/Feb/22 9:49 AM,17/Feb/22 2:57 PM,,0,Verify the calender icon with selected dates,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000g2:v,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Date Start field with calender icon,UW-7,10104,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,17/Feb/22 2:57 PM,21/Feb/22 9:49 AM,17/Feb/22 2:57 PM,,0,Verify the Date Start field with calender icon,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000g2:r,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Date Start field with correct date format(YYYY-MM-DD),UW-6,10103,Test,Done,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,Done,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,17/Feb/22 3:04 PM,21/Feb/22 9:49 AM,17/Feb/22 3:04 PM,,0,Verify the Date Start field with correct date format(YYYY-MM-DD),,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000g2:i,,,,,UW Sprint 1,,,,,,,,Done
+Verify the Date Start field with alpha numerics,UW-5,10102,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,17/Feb/22 3:04 PM,21/Feb/22 9:49 AM,,,0,Verify the Date Start field with alpha numerics,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000g2:,,,,,UW Sprint 1,,,,,,,,In Progress
+Verify the Date Start field with special characters,UW-4,10101,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,17/Feb/22 3:04 PM,21/Feb/22 9:49 AM,,,0,Verify the Date Start field with special characters,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000g1:,,,,,UW Sprint 1,,,,,,,,In Progress
+"Verify the Date Start field with invalid date, future dates",UW-3,10100,Test,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 12:10 PM,16/Feb/22 1:04 PM,16/Feb/22 3:01 PM,,,0,"Verify the Date Start field with invalid date, future dates",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,UW-1,,,,,,,,,,,,,,,,{},,,,0|i000fz:,,,,,UW Sprint 1,,,,,,,,In Progress
+As a admin i want to view the manufacturers list so that i can keep track of my manufacturers,UW-2,10099,Story,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,16/Feb/22 12:05 PM,18/Feb/22 10:04 AM,18/Feb/22 10:04 AM,,,0,"Acceptance Criteria:
+
+# Should be able to add, delete, edit the list of manufacturers",,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000fx:,,,,,UW Sprint 1,,,,,,,,In Progress
+As a admin i want to view the product purchased report so that i can understand my sales,UW-1,10098,Story,In Progress,UW,Uniform Website,software,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,,Medium,,,,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,16/Feb/22 12:01 PM,17/Feb/22 11:42 AM,18/Feb/22 10:03 AM,,,0,"Acceptance Criteria:
+
+# There should be a date range to search from.
+# There should be a Order Status filter",,Sheikh Safiur Rahaman,620b30c4bba9ca0070c9f6c5,;16/Feb/22 3:02 PM;ug:10a29fb7-1036-40f8-9684-99b18139e561;7200,57600,50400,7200,12%,57600,50400,7200,,,,,,,,,,,,,,,,,,{},,,,0|i000fv:,,,,,UW Sprint 1,,,,,,,,In Progress
